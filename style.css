@@ -1,4 +1,43 @@
 body{
-  color: green;
-  background-color: black;  
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: white;  
+  font-family: 'Times New Roman', Times, serif;
+}
+@font-face {
+    font-family: SharpGrotesk;
+    src: url("SharpGrotesk-Book25.otf") format("opentype");
+}
+
+.campo1{
+  color: white;
+  background-color: #2b2929;
+  width: 100%;
+}
+.campo1 h2{
+  font-size: 40px;
+  font-family: SharpGrotesk;   
+}
+
+header{
+  margin: 0;
+  padding: 0;
+  height: 48px;
+  background-color: white;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.btn:hover {
+  background-color: #0056b3;
 }
