@@ -3,52 +3,103 @@ body{
   padding: 0;
   color: black;
   background-color: #1E1919;  
-  font-family: 'Times New Roman', Times, serif;
+  font-family: AtlasGroteskWeblight;
 }
 @font-face {
-    font-family: SharpGrotesk;
-    src: url("SharpGrotesk-Book25.otf") format("opentype");
+    font-family: AtlasGroteskWeblight;
+    src: url("AtlasGroteskweblight.otf") format("opentype");
 }
-
-.campo1{
-  color: white;
-  width: 100%;
-}
-.campo1 h2{
-  font-size: 40px;
-  font-family: SharpGrotesk;   
+@font-face {
+  font-family: SharpGrotesk;
+  src: url("SharpGrotesk-Book25.otf") format("opentype");
 }
 
 header{
   margin: 0;
   padding: 0;
   height: 48px;
+}
+nav{
+  align-items: center;
+  top:0;
+  left: 0;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  height: 48px;
+  width: 100%;
   background-color: white;
 }
+.logo{
+  display: flex;
+  margin: 0;
+  text-align: center;
+  background-color: #0061FE;
+}
+.logo img{
+  padding-bottom:10px;
+  padding-top: 10px;
+}  
+.logotext{
+  margin: 0;
+  padding: 0;
+  float: left;
+  width:93px;
+  height: 22px;
+  margin-left: 50px;
+}
+
+
+.espaco{
+  width: auto;
+  height: 72px;
+}
+
+.campo1{
+  color: white;
+  width: auto;
+  text-align:center;
+  margin:20%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.campo1 p{
+  line-height: 150%;
+}
+.campo1 h2{
+  margin:0;
+  font-weight: 400;
+  text-wrap: balance;
+  hyphens: manual;
+  overflow-wrap: break-word;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-size: 40px;
+  font-family: SharpGrotesk;   
+}
+
+
 
 .btn {
+  display: inline-block;
   background-color: #007bff;
   color: black;
   padding: 20px 40px;
   text-align: center;
-  text-decoration: none;
   font-size: 20px;
-  margin: 10px 0;
+  text-decoration: none;
+  margin-top: 32px;
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: rgb(49, 144, 245);
 }
+.campo2{
 
-
-.logo{
-  background-color: #0061FE;
-  height: 48px;
-  width: 48px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: auto;
+  margin-left: 3.7%;
+  margin-right: 3.7%;
 }
-.logoText{
-
+.campo2 video{
+  width: 100%;
 }
